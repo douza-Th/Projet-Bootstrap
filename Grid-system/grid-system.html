@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Fictif</title>
+    <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+    <header>
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid" style="background-color: brown;">
+          <h1>TERANGA Resto</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link super" aria-current="page" href="#">A propos de Nous</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link inferior" href="#">Contact</a>
+                </li>
+
+                </div>
+            
+          </nav>
+    </header>
+    <main id="section-heros">
+      <section style="background-color:beige;">
+        <h2 style="color: blue;">Héros</h2>
+            <p style="font-family:'Arial Narrow Bold'; color: black;">Le plat royal et national du Senegal: Le Tieboudienne</p>
+        <class class="row">
+          <div class="col-4">
+            <img src="./images/riz-poisson.jfif" alt="riz-poisson">
+          </div>
+          <div class="col-8">
+             <p>Il faut absolument goûter le ceebu jen, le plat national à base de riz, de poisson et de légumes variés. Vous pouvez essayer aussi le ceebu wer (riz blanc), une variante du ceebu jen où le riz est cuit sans adjonction de concentré de tomates, servi avec un peu de nététou, de sauce de feuille de bissap ou de tamarin. Originaire des villages de pêcheurs de l'ile de Saint-Louis, ce mets à base de riz brisé, de poisson et de divers types de légumes aurait été créé au 19ème siècle par Penda Mbaye, une cuisinière de la région.</p>
+             <p>l'apparence, l'arôme, le goût, la texture et la consistance sont au rendez-vous!</p>
+          </div>
+          <div class="validation">
+            <button class="btn btn-primary" type="button">Commandez</button>
+          </div>
+      </section>
+      <section id="menu-resto">
+        <h3>Menu</h3>
+        <div class="container text-center" style="background-color: beige;">
+          <div class="row">
+            <div class="col">
+              Entrées
+              <img src="./images/soupe.jpg" alt="soupe">
+              <h4 style="color: red;">Soupe</h4>
+              <p>Une bonne soupe pleine de saveur, sans goût amer ni désagréable</p>
+              <p style="color: blue;">Prix=>2000f</p>
+            </div>
+            <div class="col">
+              Plats de Resistance
+              <img src="./images/choukouya.jpg" alt="">
+              <h4 style="color: red;">Choukouya</h4>
+              <p>Plat d'origine ivoirienne de viande marinée et cuite à l'étouffée, en papillote ou braisée.</p>
+              <p style="color: blue;">Prix=>5000f</p>
+            </div>
+            <div class="col">
+              Desserts
+              <img src="./images/salade-de-fruits.jfif" alt="">
+              <h4 style="color: red;">Salade de Fruits</h4>
+              <p>La salade de fruits est un dessert, mais il est composé d'un mélange de fruits.</p>
+              <p style="color: blue;">Prix=>2000f</p>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="propos">
+        <class class="row">
+             <div class="col-6">
+               <img class="local-resto" src="./images/local1.jpg" alt="">
+             </div>
+          <div class="col-6" style="background-color: beige;">
+            <p>
+              Notre restaurant africain propose une cuisine mixte : des spécialités ivoiriennes et sénégalaises aux incontournables de la cuisine française, chacun trouvera son bonheur selon ses envies et ses goûts.
+              
+              Notre cheffe Christelle est la spécialiste de la cuisine française. A ses côtés, la gérante du restaurant et sa maman concoctent quant à elles chaque jour une variété de plats africains traditionnels : yassa, mafé, poulet et dorade braisés, etc.
+              
+              Chez nous, tout est fait maison avec passion et savoir-faire. Nous sélectionnons nos ingrédients auprès d’artisans locaux et travaillons avec les fournisseurs de la région : la boulangerie d’Alexis, la poissonnerie de Laurence, la boucherie de Francis, etc.
+              
+              Vous souhaitez déguster un menu halal, végétarien ou vegan ? Nous le préparons sur réservation pour un groupe de 5 personnes minimum. Merci de commander vos plats au moins 48h à l’avance.</p>
+          </div>
+              
+      </section>
+      <section>
+        <form action="">
+          <div class="container" style="background-color: beige;">
+            <h6 style="color: blue; text-align: center; font-size: 30px;">Contactez-nous</h6>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="khadija">
+              </div>
+               <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">Validez</button>
+              </div>
+          </div>
+        </div>
+        </form>
+      </section>
+      
+
+    </main>
+    <footer class="footer-resto">
+        <div class="container-fluid text-center" style="background-color: brown;">
+          <div class="row">
+            <div class="col">
+              adresse
+                <p>Senegal, region de Thiés 11 rue place de France</p>
+            </div>
+            <div class="col">
+              Reseaux sociaux
+              <p>Teranga Resto</p>
+               
+            </div>
+            <div class="col">
+              Horaire
+              09h-00h                       
+              
+              
+                
+            </div>
+            <div class="col">Contact</div>
+          </div>
+          <div class="row">
+            
+            <div style="font-size: 30px;" class="col-8">
+              
+              
+              <i class="fa-brands fa-tiktok"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              
+              
+              
+             
+            </div>
+            <div class="col-4">
+              <i style="font-size: 60px; color:green;" class="fa-brands fa-whatsapp"></i>
+              781286814
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+</body>
+</html>

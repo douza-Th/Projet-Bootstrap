@@ -1,0 +1,40 @@
+
+
+h1 {
+    color: bisque;
+    font-family: 'Times New Roman';
+
+}
+
+#section-heros{
+    margin: 80px;
+    margin-left: 10px;
+    margin-right: 0%;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    
+}
+.validation{
+    text-align: center;
+}
+#menu-resto{
+    margin: 30px;
+}
+h3{
+    font-style: italic;
+    
+}
+#propos{
+    margin:40px;
+}
+
+.local-resto{
+    width: 500px;
+    height: 350px;
+}
+.footer-resto{
+    margin-top: 10px;
+}
